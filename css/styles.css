@@ -172,6 +172,17 @@ a:active {
 }
 
 
+.red-input:focus {
+  background: #193344;
+  color: antiquewhite;
+}
+
+.blue-input:focus {
+  background: #193344;
+  color: antiquewhite;
+}
+
+
 
 /* Mobile */
 @media (max-width: 768px) {
