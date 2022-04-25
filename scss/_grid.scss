@@ -1,0 +1,29 @@
+.header {
+  grid-area: header;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(1, 4, 133, 1) 44%, rgba(0, 13, 16, 1) 100%);
+  font-size: 20px;
+}
+
+.navbar {
+  grid-area: navbar;
+  background-color: aqua;
+}
+
+.aside {
+  grid-area: aside;
+  background-color: #193344;
+  font-size: 20px;
+}
+
+.main {
+  grid-area: main;
+  background-color: rgb(3, 3, 75);
+  font-size: 20px;
+}
+
+.footer {
+  grid-area: footer;
+  background: radial-gradient(circle, rgba(7, 5, 8, 1) 0%, rgb(182, 183, 235) 44%, rgba(9, 13, 16, 1) 100%);
+
+}

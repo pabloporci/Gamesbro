@@ -1,0 +1,22 @@
+.menuNavegacion {
+  font-size: 30px;
+  list-style-type: none;
+  color: $color-titulo;
+}
+
+a {
+  transition: 2s;
+
+  &:hover {
+    background-color: blue;
+  }
+
+}
+
+
+.navegacion ul {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

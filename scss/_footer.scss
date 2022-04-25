@@ -1,0 +1,22 @@
+.nav-footer li a {
+  border-radius: 15px;
+  background-color: white;
+  margin-right: 10px;
+  font-size: medium;
+
+}
+
+.nav-footer li a:hover {
+  background-color: rgb(3, 3, 75);
+  color: white !important;
+}
+
+.red-input:focus {
+  background: #193344;
+  color: $color-titulo;
+}
+
+.blue-input:focus {
+  background: #193344;
+  color: $color-titulo;
+}
