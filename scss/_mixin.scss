@@ -1,0 +1,8 @@
+@mixin parrafo ($size, $color) {
+  font-size: $size;
+  color: $color;
+}
+
+.letra-color {
+  @include parrafo(20px, white)
+}

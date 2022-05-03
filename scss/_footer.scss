@@ -20,3 +20,25 @@
   background: #193344;
   color: $color-titulo;
 }
+
+.boton-1 {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.boton--enviar {
+  @extend .boton-1;
+  background-color: #193344;
+  color: grey;
+}
+
+.boton--limpiar {
+  @extend .boton-1;
+  background-color: grey;
+  color: #193344;
+}

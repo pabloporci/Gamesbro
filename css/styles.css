@@ -44,7 +44,7 @@
 .menuNavegacion {
   font-size: 30px;
   list-style-type: none;
-  color: antiquewhite;
+  color: white;
 }
 
 a {
@@ -75,12 +75,58 @@ a:hover {
 
 .red-input:focus {
   background: #193344;
-  color: antiquewhite;
+  color: white;
 }
 
 .blue-input:focus {
   background: #193344;
-  color: antiquewhite;
+  color: white;
+}
+
+.boton-1, .boton--limpiar, .boton--enviar {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.boton--enviar {
+  background-color: #193344;
+  color: grey;
+}
+
+.boton--limpiar {
+  background-color: grey;
+  color: #193344;
+}
+
+/*map-get*/
+.card {
+  background-color: rgb(3, 3, 75);
+  text-align: center;
+  padding: 1rem;
+  font-size: 30px;
+}
+
+/*Creamos el bucle para usar los valores del mapa*/
+.bg-facebook {
+  background-color: #7455ee !important;
+}
+
+.bg-instagram {
+  background-color: #193344 !important;
+}
+
+.bg-twitter {
+  background-color: rgb(3, 3, 255) !important;
+}
+
+.letra-color {
+  font-size: 20px;
+  color: white;
 }
 
 * {
@@ -108,11 +154,11 @@ body {
 
 h1 {
   font-size: 50px;
-  color: antiquewhite;
+  color: white;
 }
 
 h2 {
-  color: antiquewhite;
+  color: white;
 }
 
 .logo {
@@ -128,11 +174,11 @@ ul {
 }
 
 .redesSociales {
-  color: antiquewhite;
+  color: white;
 }
 
 li {
-  color: antiquewhite;
+  color: white;
   text-transform: uppercase;
   font-weight: lighter;
 }
@@ -141,7 +187,7 @@ a:link,
 a:visited,
 a:active {
   text-decoration: none;
-  color: antiquewhite;
+  color: white;
   font-size: 1.5vw;
 }
 
@@ -153,7 +199,7 @@ a:active {
 }
 
 .letra-color {
-  color: antiquewhite;
+  color: white;
 }
 
 .horizon-image {
@@ -162,7 +208,7 @@ a:active {
 }
 
 .form-label {
-  color: antiquewhite;
+  color: white;
 }
 
 /* Mobile */

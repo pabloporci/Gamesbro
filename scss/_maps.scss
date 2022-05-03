@@ -1,0 +1,28 @@
+/*map-get*/
+
+$estilos: (color: rgb(3, 3, 75),
+  centro: center,
+  tFuente: 30px,
+  1rem : 1rem);
+
+.card {
+  background-color: map-get($estilos, color);
+  text-align: map-get($estilos, centro);
+  padding: map-get($estilos, 1rem);
+  font-size: map-get($estilos, tFuente);
+}
+
+
+$mapRedes: (
+  /*Declaramos nuestro mapa*/
+  "facebook": #7455ee,
+  "instagram": #193344,
+  "twitter": rgb(3, 3, 520));
+
+/*Creamos el bucle para usar los valores del mapa*/
+@each $name,
+$color in $mapRedes {
+  .bg-#{$name} {
+    background-color: map-get($mapRedes, $name) !important;
+  }
+}
