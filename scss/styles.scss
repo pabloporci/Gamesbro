@@ -55,6 +55,7 @@ h2 {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 
@@ -68,6 +69,8 @@ li {
   color: $color-titulo;
   text-transform: uppercase;
   font-weight: lighter;
+  padding: 0;
+  margin: 0;
 
 }
 
@@ -116,8 +119,9 @@ a:active {
   }
 
   .aside-modules {
-    flex-direction: row;
+    flex-direction: column;
   }
+
 }
 
 @media (min-width:768px) and (max-width:820px) {

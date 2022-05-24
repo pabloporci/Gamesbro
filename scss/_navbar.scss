@@ -13,10 +13,11 @@ a {
 
 }
 
-
 .navegacion ul {
   display: flex;
   gap: 20px;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
